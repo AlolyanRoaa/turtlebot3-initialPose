@@ -27,7 +27,9 @@ cd ~/forinitial/
 git clone https://github.com/markwsilliman/turtlebot/
 ```
 
+
 ![]()
+
 
 now run the simulation with the map created previously
 
@@ -36,6 +38,7 @@ now run the simulation with the map created previously
 $ export TURTLEBOT3_MODEL=burger
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ```
+
 
 and in new terminal
 
@@ -48,10 +51,15 @@ $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/m
 
 ## New position
 
+
 after estimating the initial pose, to get the dimension of the new position go to RViz window in panels tap check on selection box.
 
 
+![]()
+
+
 then the selection panle will appears on the left side of the window, now you can select a specific location on the map by using ![]() tool
+
 
 ![]()
 
@@ -68,6 +76,7 @@ gedit go_to_specific_point_on_map.py
 
 
 ![]()
+
 
 
 then change the values of x and y, and save changes.
